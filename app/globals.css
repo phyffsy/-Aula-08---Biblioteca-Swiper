@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Personalização das setas e da paginação do Swiper */
+.carousel-swiper {
+  --swiper-theme-color: #38bdf8;
+}
+
+.carousel-swiper .swiper-button-prev,
+.carousel-swiper .swiper-button-next {
+  color: #ffffff;
+  background: rgb(15 23 42 / 55%);
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+}
+
+.carousel-swiper .swiper-button-prev::after,
+.carousel-swiper .swiper-button-next::after {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.carousel-swiper .swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 0.65;
+}
+
+.carousel-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
